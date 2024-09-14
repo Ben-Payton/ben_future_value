@@ -3,7 +3,7 @@ import setuptools
 import pathlib
 
 PROJECT_NAME = "ben_future_value"
-VERSION = "1.0."
+VERSION = "1.0.0"
 SHORT_DESCRIPTION = "A package to assist in calculating future value"
 SOURCE_CODE_LINK= "https://github.com/Ben-Payton/ben_future_value"
 DOCUMENTATION_LINK = "https://github.com/Ben-Payton/ben_future_value/blob/main/README.md" 
