@@ -84,3 +84,4 @@ plt.ylabel("Dollar Value")
 # This shows out graph when we run out code
 plt.show()
 ```
+![figure](https://github.com/Ben-Payton/ben_future_value/blob/main/fig/Interest_value_example_plot.png?raw=true)
