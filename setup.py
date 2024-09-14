@@ -7,7 +7,7 @@ VERSION = "1.0."
 SHORT_DESCRIPTION = "A package to assist in calculating future value"
 SOURCE_CODE_LINK= "https://github.com/Ben-Payton/ben_future_value"
 DOCUMENTATION_LINK = "https://github.com/Ben-Payton/ben_future_value/blob/main/README.md" 
-REQUIRED_DEPENDANCIES = []
+REQUIRED_DEPENDANCIES = ["matplotlib","seaborn"]
 
 
 setuptools.setup(
