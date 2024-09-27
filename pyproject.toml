@@ -5,13 +5,6 @@ requires = [
     ]
 build-backend = "setuptools.build_meta"
 
-
-[project]
-name = "ben_future_value"
-version = "0.1.0"
-
-
-
 [project.optional-dependencies]
 test = [
     "pytest",
