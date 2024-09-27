@@ -15,7 +15,7 @@ version = "0.1.0"
 [project.optional-dependencies]
 test = [
     "pytest",
-    "coverage"
+    "coverage",
     "ben_future_value"
 ]
 
