@@ -4,3 +4,24 @@ requires = [
     "wheel"
     ]
 build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "coverage"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["ben_future_value"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+xfail_strict = true
+filterwarnings = ["error"]
+log_cli_level = "info"
+testpaths = [
+
+  "tests",
+
+]
